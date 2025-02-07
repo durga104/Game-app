@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .title {
+    color: #333;
+  }
+  
+  .score {
+    color: #555;
+    font-size: 24px;
+  }
+  
+  .button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #005f73;
+  }
+  
+  .button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
